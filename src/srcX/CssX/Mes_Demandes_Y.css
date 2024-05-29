@@ -1,0 +1,19 @@
+.mine{
+    width: 74.9%;
+    height: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.topoOO{
+    width: 90%;
+    height: 8%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.titldd{
+    font-family: X3RG;
+}

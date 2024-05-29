@@ -1,0 +1,164 @@
+.MainDiv{
+    width: 74.9%;
+    height: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.Modifier{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+.titleoX{
+    width: 80%;
+    height: 5%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    border-radius: 13px;
+    font-family: X3RG;
+}
+.inputo{
+    width: 30%;
+    height: 50%;
+    margin: 10px;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+.listi{
+    width: 30%;
+    height: 50%;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+.listioo{
+    width: 93.7%;
+    height: 50%;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+.textaa{
+    width: 46.5%;
+    height: 80%;
+    margin: 5px;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+.textaai{
+    width: 30%;
+    height: 100%;
+    margin: 5px;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+.e1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 12%;
+}
+.e2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 12%;
+}
+.e3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 12%;
+}
+.e4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 12%;
+}
+.e5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 12%;
+}
+.e6{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 12%;
+}
+.e7{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 12%;
+}
+.e8{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 12%;
+}
+.sauvegarder{
+    width: 20%;
+    height: 50%;
+    background-color: white;
+    border: 2px solid black;
+    font-family: X3RG;
+    transition: 0.3s;
+    margin: 10px;
+}
+.sauvegarder:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    width: 16%;
+    border-radius: 100px;
+}
+.writtttt{
+    width: 50%;
+    height: 30%;
+    border: black 1px solid;
+    outline: none;
+}
+.CRE{
+    width: 20%;
+    height: 6%;
+    border: none;
+    background-color: rgb(255, 14, 14);
+    color: white;
+    transition: 0.3s;
+}
+.CRE:hover{
+    width: 50%;
+    height: 6%;
+    border: none;
+    background-color: black;
+    cursor: pointer;
+}

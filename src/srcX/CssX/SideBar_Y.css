@@ -1,0 +1,58 @@
+.navbari{
+    width: 25%;
+    height: 95%;
+    display: flex;
+    align-items: baseline;
+    justify-content: baseline;
+    border-radius: 20px;
+    flex-direction: column;
+    padding: 8px;
+}
+.tabs{
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 80%;
+    height: 6%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    transition: 0.3s;
+}
+.tabs:hover{
+    background-color: black;
+    color: white;
+}
+.tab{
+    font-size: 13px;
+    padding: 10px;
+    font-family: 'verdana';
+    transition: 0.2s;
+}
+.tab:hover{
+    color: white;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+
+
+
+
+.tabslist{
+    width: 100%;
+    height: auto;
+    margin: 10px;
+}
+
+.tabin{
+    font-size:15px;
+    font-family: ForzanLight;
+    transition: 0.4s;
+    
+}
+.tabin:hover{
+    cursor: pointer;
+    color: #535EFF;
+    margin-left: 10px;
+}

@@ -1,0 +1,101 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-image: url(../Components/img/1800.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 800px; /* Adjust this value as needed */
+}
+
+.glassL{
+  border: #8d8d8d63 solid 0.5px;
+  position: relative; /* Add this line */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  background-color: rgba(0, 0, 0, 0.575);
+  height: 550px;
+  border-radius: 10px;
+  width: 550px; /* Adjust this value as needed */
+}
+
+  
+  .inputsx {
+    display: flex;
+    flex-direction: column;
+    gap: 55px; /* This adds some space between your inputs and textareas */
+    width: 75%;
+    justify-content: center;
+    align-items: center;
+  }
+  .tt{
+   height: 50px; 
+   border-radius: 18px;
+   border: solid 1px #707070;
+   background-color: #545454;
+   font-family: "verdana";
+   font-size: 15px;
+   transition: border-bottom 0.3s ;
+   color: rgb(255, 255, 255);
+   width: 100%;
+  }
+  .tt:focus {
+    border: solid 1px gray;
+    cursor: default;
+ }
+ .tt:hover {
+    cursor: default;
+ }
+  
+
+ .ExodUS{
+    font-family: Extrada;
+    font-size: 50px;
+    color: #B0B0B0;
+    text-shadow: 2px 2px black;
+    margin-top: 30px;
+ }
+
+ .next{
+  height: 40px; 
+   border-radius: 13px;
+   border: solid 1px gray;
+   background-color: #252525;
+   font-family: "verdana";
+   font-size: 15px;
+   transition: border-bottom 0.3s ;
+   color: #B9B9B9;
+   justify-content: center;
+   align-items: center;
+   width: 30%;
+ }
+ .next:focus{
+  border: solid 1px gray;
+ }
+ .next:hover{
+  cursor: pointer;
+  color: white;
+  background-image: linear-gradient(rgb(82, 108, 255), rgb(148, 181, 241)); 
+ }
+ .forget{
+  color: #B9B9B9;
+  position: absolute; /* Add this line */
+  right: 8px; /* Add this line */
+  bottom: 8px;
+ }
+ .forget:hover{
+  cursor: pointer;
+  color: rgb(175, 186, 248);
+ }
+  

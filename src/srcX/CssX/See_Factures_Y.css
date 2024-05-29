@@ -1,0 +1,55 @@
+.fod{
+    width: 74.9%;
+    height: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    margin: 10px;
+}
+.les_facturesX{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.les_facturesXY{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 30px;
+    border-left: solid black 1px;
+    gap: 30px;
+}
+.facturecard{
+    width: 85%;
+    height: 8%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    border: solid 1px black;
+    font-size: 20px;
+    font-family: titlio;
+    background-color: white;
+    transition: 0.3s;
+}
+.facturecard:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+}
+.showX{
+    font-size: 20px;
+    font-family: CONSOLA;
+    color: rgb(0, 119, 255);
+}
+.spani{
+    color: black;
+}

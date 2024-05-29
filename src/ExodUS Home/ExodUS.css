@@ -1,0 +1,456 @@
+/* ExodUS.css */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url(../Components/img/1800.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Updated height */
+    width: 100vw; /* Updated width */
+  }
+  
+  .navbar {
+    position: fixed; /* Fixed position at the top */
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 10px;
+    background-color: black;
+    border-radius: 15px;
+    color: white; /* Example text color */
+    padding: 10px;
+    box-shadow: none;
+  }
+  .navbarleft{
+    width: 33%;
+    display: flex;
+    align-items: center; /* Vertically center the content */
+    height: 98%;
+    gap :10px;
+  }
+  .DAD {
+    display: flex;
+    align-items: center; /* Vertically center the content */
+    justify-content: center; /* Horizontally center the content */
+    color: #ffffff;
+    background-color: #000000;
+    border: 1px solid #707070;
+    width: 10%;
+    height: 100%;
+    border-radius: 10px;
+  }
+  .DAD:hover{
+    background-image: linear-gradient(rgb(25, 123, 252), rgb(69, 156, 255));
+    cursor: pointer;
+  }
+  .FF {
+    display: flex;
+    align-items: center; /* Vertically center the content */
+    justify-content: center; /* Horizontally center the content */
+    color: #ffffff;
+    background-color: #000000;
+    border: 1px solid #707070;
+    width: 28%;
+    height: 100%;
+    border-radius: 10px;
+  }
+  .FF:hover{
+    background-image: linear-gradient(rgb(25, 123, 252), rgb(69, 156, 255));
+    cursor: pointer;
+  }
+  .navbarmiddle{
+    width: 33%;
+    display: flex;
+    align-items: center; /* Vertically center the content */
+    height: 98%;
+    justify-content: center;
+  }
+  .EPV {
+    font-family: titlio;
+    font-size: 20px;
+    color: #ffffff;
+    transition: font-size 0.3s, color 1s, font-family 0.3s;
+    position: relative;
+  }
+  
+  .EPV:hover {
+    cursor: pointer;
+    font-size: 22px;
+    font-family: titlio;
+    color: #4BFFBC;
+  }
+  
+  /* Tooltip style */
+  .EPV:hover::before {
+    content: "Votre propre espace pour une personnalisation complete pour ExodUS";
+    position: absolute;
+    background-color: #000000a6;
+    color: #ffffff;
+    font-family: cenio;
+    border: 1px solid #707070;
+    padding: 8px; /* Increased padding for a larger tooltip */
+    border-radius: 5px;
+    font-size: 14px;
+    top: 50%;
+    left: 100%; /* Move the tooltip to the right */
+    width: 350px;
+    transform: translateX(10%);
+    transition: opacity 1s, font-family 1s;
+  }
+  
+  .EPV:hover::before {
+    opacity: 1.5; /* Show the tooltip on hover */
+  }
+  .navbarright {
+    width: 33%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; /* Move divs to the right */
+    height: 98%;
+    gap: 10px;
+  }
+  
+  .More {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000;
+    border: 1px solid #707070;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    transition: width 0.3s;
+  }
+  .More:hover{
+    cursor: pointer;
+    background-color: rgb(0, 0, 0);
+    border: 1px solid #707070;
+    width: 80px;
+    height: 20px;
+  }
+  
+  .LogOut {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    background-color: #000000;
+    border: 1px solid #707070;
+    width: 20%;
+    height: 100%;
+    border-radius: 10px;
+  }
+  .LogOut:hover{
+    background-image: linear-gradient(rgb(252, 25, 25), rgb(255, 69, 69));
+    cursor: pointer;
+  }
+  
+  .SecondPart {
+    width: 98.5%;
+    display: flex;
+    margin: 10px;
+    height: auto;
+    gap: 10px;
+    justify-content: space-between;
+    position: absolute;
+    top: 90px; /* Adjust the value to move it down from the top */
+    left: 0;
+    right: 0;
+  }
+  
+  .Right{
+    width: 65%;
+    height: 400px;
+    background-color: rgba(0, 0, 0, 0.699);
+    border: solid 1px #7070709a;
+    border-radius: 20px;
+  }
+  .title2{
+    color: #4BFFBC;
+    margin: 10px;
+    height: 10%;
+    font-size: 23px;
+  }
+  .Left {
+    width: 35%;
+    height: 400px;
+    background-color: rgba(0, 0, 0, 0.418);
+    border-radius: 20px;
+    border-top: 1px solid rgba(255, 255, 255, 0.479);
+    border-left: 1px solid rgba(255, 255, 255, 0.479);
+    background-color:rgba(225,225,225,0.1);
+    backdrop-filter: blur(0.2rem);
+  }
+  .title1{
+    color: #4BFFBC;
+    margin: 10px;
+    font-size: 23px;
+    height: 10%;
+  }
+
+  .alltasks{
+    height: 90%;
+    margin: 10px;
+  }
+  .ligne1{
+    height: 40%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 110px;
+  }
+  .ligne2{
+    height: 40%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 110px;
+    margin-top: 20px;
+  }
+.shpae{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000000;
+  width: 12%;
+  height: 90%;
+  border: 2px solid #4BFFBC;
+  border-top-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+.inshape{
+  color: white;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  height: 90%;
+}
+.number{
+  height: 60%;
+  font-size: 50px;
+  margin-right: 40px;
+  font-family: X3RG;
+  color: #4BFFBC;
+}
+.bureau{
+  height: 40%;
+  font-size: 13px;
+  margin-top: 40px;
+  margin-right: 20px;
+}
+.alltitles{
+  height: 90%;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.title11{
+  height: 45%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  gap: 20px;
+}
+.HS{
+  font-size: 22px;
+  margin-bottom: 50px;
+  font-family: CONSOLA;
+  background-image: linear-gradient(to right, rgb(0, 140, 255) , rgb(0, 11, 160));
+  border-radius: 15px;
+  border: #7cebff 2px solid;
+  width: 50%;
+  height: 50%;
+  display: flex;
+  align-items: center; /* Vertically center the content */
+  justify-content: center;
+}
+.HSPLUS{
+  width: 15%;
+  height: 50%;
+  margin-bottom: 50px;
+  background-image: linear-gradient(to right, rgb(0, 140, 255) , rgb(0, 11, 160));
+  border-radius: 15px;
+  display: flex;
+  align-items: center; /* Vertically center the content */
+  justify-content: center;
+  font-size: 22px;
+  transition: 0.3s;
+}
+.HSPLUS:hover{
+  box-shadow: 0 0 5px 5px #2196f3,  0 0 25px 25px #2196f3 ;
+  cursor: pointer;
+}
+.title12{
+  height: 45%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #4BECFF;
+}
+  
+.IN{
+  font-family: CONSOLA;
+  margin-right: 250px;
+  font-size: 22px;
+  margin-bottom: 50px;
+}
+.IN::before{
+  content: "";
+  position: absolute;
+  width: 320px;
+  height: 1px;
+  background-color: #4BECFF;
+  left: 360px;
+  bottom: 100px;
+}
+.ThirdPart{
+  width: 98.5%;
+  height: 45%;
+  background-color: rgba(0, 0, 0, 0.699);
+  border: solid 1px #7070709a;
+  border-radius: 20px;
+  margin-top: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.bleft{
+  width: 80%;
+  height: 90%;
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bigelement{
+  width: 33%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+
+}
+.numberio{
+  width: 40%;
+  height: 45%;
+  background-color: rgb(0, 0, 0);
+  border-top-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  border: 2px solid #74FF4B;
+  color: #74FF4B;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 60px;
+  font-family: X3RG;  
+
+}
+.elementio{
+  width: 60%;
+  height: 48%;
+  margin: 10px;
+}
+.titre{
+  width: 100%;
+  height: 50%;
+  font-size: 25px;
+  color: #74FF4B;
+  font-family: CONSOLA;
+}
+.iconio{
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+.clock{
+  width: 80px;
+  height: 80px;
+}
+.doc{
+  width: 80px;
+  height: 80px;
+}
+.close{
+  width: 80px;
+  height: 80px;
+}
+.bright{
+  width: 20%;
+  height: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.topio{
+  width: 60%;
+  height: 50%;
+  background-color: rgb(0, 0, 0);
+  border-top-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  border: 2px solid #74FF4B;
+  color: #74FF4B;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 60px;
+  font-family: X3RG; 
+}
+.topio::before{
+  content: "";
+  height: 300px;
+  width: 1px;
+  background-color: #707070;
+  position: absolute;
+  right: 450px;
+}
+.bottomio{
+  font-size: 25px;
+  color: #74FF4B;
+  font-family: CONSOLA;
+}
+.Back {
+  display: flex;
+  align-items: center; /* Vertically center the content */
+  justify-content: center; /* Horizontally center the content */
+  color: #ffffff;
+  background-color: #000000;
+  border: 1px solid #707070;
+  width: 15%;
+  height: 100%;
+  border-radius: 10px;
+}
+.Back:hover{
+  background-image: linear-gradient(rgb(25, 123, 252), rgb(69, 156, 255));
+  cursor: pointer;
+}
+.EPVN {
+  font-family: titlio;
+  font-size: 20px;
+  color: #ffffff;
+  transition: font-size 0.3s, color 1s, font-family 0.3s;
+  position: relative;
+}

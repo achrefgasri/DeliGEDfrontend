@@ -1,4 +1,4 @@
-.App {
+/*.App {
   text-align: center;
 }
 
@@ -35,4 +35,141 @@
   to {
     transform: rotate(360deg);
   }
+}
+*/
+*{
+  box-sizing: border-box;
+}
+
+.register,.login{
+  margin: 10vh auto;
+    width: 80vw;
+    height: 70vw;
+    /* border: 2px solid red; */
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow:0 0 5px rgba(190 , 187,187,.6);
+    display: flex;
+}
+.register-cover{
+background-image: url("../src/Components/img/Delice.jpg");
+background-size: cover;
+width: 50%;
+height:100%;
+}
+.register-content{
+  text-align: center;
+  width: 50%;
+
+}
+input,textarea{
+  padding: 8px;
+  border: 1px solid black;
+  border-radius: 10px;
+  font-size: 1rem;
+}
+.form-group{
+  width:80%;
+  margin: 5px auto;
+  display: flex;
+  flex-direction: column;
+}
+.row{
+  width: 80%;
+  margin: 10px auto;
+  display: flex;
+  gap:10px;
+}
+.form-group label{
+  margin: 5px 0;
+  text-align: left;
+  font-size:1rem ;
+}
+.btn{
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 10px;
+}
+.signup{
+  background-color: black;
+  color: #fff;
+}
+.signup:hover{
+  cursor: pointer;
+  background-color: rgb(red, green, blue) ;
+  color: #fff;
+}
+.valid{
+  color: orangered;
+}
+
+.login-cover{
+  background-image: url("../public/ab.png");
+  background-size: cover;
+  width: 50%;
+  height: 100%;
+}
+.login-content{
+  width: 50%;
+  text-align: center;
+}
+
+/*===========  home ==============*/
+.layout-app{
+display: flex;
+}
+
+
+@font-face {
+  font-family: Extrada;
+  src: url(../src/Components/Fonts/boldatin\ ExtraBold\ demo.ttf);
+}
+@font-face{
+  font-family: Abing;
+  src: url(../src/Components/Fonts/AbingtonBolditalic-7Bo1R.otf);
+}
+@font-face {
+  font-family: AbingX;
+  src: url(../src/Components/Fonts/AbingtonBold-vmyZ7.otf);
+}
+@font-face {
+  font-family: cenio;
+  src: url(../src/Components/Fonts/CeniosRoundedDemoRegular-wo1z8.otf);
+}
+@font-face {
+  font-family: titlio;
+  src: url(../src/Components/Fonts/TitleWaveRegular-l9ve.ttf);
+}
+@font-face{
+  font-family: Uniqlove;
+  src: url(../src/Components/Fonts/UniqlovesBoldBold-4Bm8K.ttf);
+}
+@font-face{
+  font-family: X3RG;
+  src: url(../src/Components/Fonts/Bold-X3RG.ttf);
+}
+@font-face {
+  font-family: CONSOLA;
+  src: url(../src/Components/Fonts/CONSOLA.TTF);
+}
+@font-face {
+  font-family: Cenios;
+  src: url(./srcX/AssetsX/Fonts/Cenios-Regular.otf);
+}
+@font-face {
+  font-family: boldatin ;
+  src: url(./srcX/AssetsX/Fonts/boldatin\ ExtraBold\ demo.ttf);
+}
+@font-face {
+  font-family: Cascadia;
+  src: url(./srcX/AssetsX/Fonts/Cascadia.ttf);
+}
+@font-face {
+  font-family: Light;
+  src: url(./srcX/AssetsX/Fonts/LightTfb-BWGoG.ttf);
+}
+@font-face {
+  font-family: ForzanLight;
+  src: url(./srcX/AssetsX/Fonts/ForzanLight-ALWAA.ttf);
 }

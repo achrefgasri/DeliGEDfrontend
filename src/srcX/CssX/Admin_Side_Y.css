@@ -1,0 +1,209 @@
+.adminsides{
+    width: 20%;
+    height: 98%;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 13px;
+}
+.traitement{
+    height: 80%;
+    width: 100%;
+    border-radius: 20px;
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.76);
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.traiting{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-size: 25px;
+}
+.messagelist{
+    height: 90%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.messagerecu{
+    width: 90%;
+    height: 9%;
+    border: 1px solid black;
+    background-color: #ffffff27;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+}
+.messagerecu:hover{
+    background-color: #51f3ff;
+    margin-left: 10px;
+    cursor: pointer;
+    border-radius: 50px;
+}
+.imageprofile{
+    width: 30%;
+    height: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.theimage{
+    width: 55%;
+    height: 80%;
+    border-radius: 50px;
+}
+.nameandcontent{
+    width: 100%;
+    height: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.nameE{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    color: black;
+    font-family: CONSOLA;
+}
+
+.contentT{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    color: black;
+    font-family: CONSOLA;
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+.profile{
+    height: 10%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.658);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+}
+.profile:hover{
+    margin-left: 10px;
+    cursor: pointer;
+    background-color: aliceblue;
+    border-radius: 50px;
+}
+.UserProfile{
+    width: 30%;
+    height: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.userimage{
+    width: 60%;
+    height: 80%;
+    border-radius: 50px;
+}
+.userandrole{
+    width: 70%;
+    height: 95%;
+    display: flex;
+    align-items:flex-start;
+    justify-content:center;
+    flex-direction: column;
+    gap: 5px;
+}
+.user{
+    font-size: 20px;
+    color: black;
+    font-family: 'verdana';
+}
+.role{
+    font-size: 15px;
+    color: rgb(255, 0, 0);
+}
+.search{
+    height: 10%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.658);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 4px;
+}
+.searchtitle{
+    color: black;
+    font-size: 20px;
+    font-family: 'verdana';
+    width: 100%;
+    height: 30%;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    margin-top: 5px;
+}
+.searchbar{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.searchhere{
+    width: 80%;
+    height: 50%;
+    outline: none;
+    border-radius: 50px;
+    border: 0px;
+    color: black;
+    transition: 0.3s;
+}
+.searchhere:hover{
+    cursor: pointer;
+    box-shadow: 5px 5px 5px  rgb(54, 101, 255);
+}
+.contactta{
+    width: 85%;
+    height: 90%;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+.Sendproblem{
+    border: none;
+    border-radius: 15px;
+    background-color: #4046FF;
+    color: white;
+    width: 30%;
+    height: 6%;
+    transition: 0.3s;
+}
+.Sendproblem:hover{
+    cursor: pointer;
+    background-color: #1119ff;
+    border-radius: 100px;
+    width: 70%;
+}

@@ -1,0 +1,106 @@
+.BigNav{
+    position: fixed; /* Fixed position at the top */
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 10px;
+    background-color: rgba(255, 255, 255, 0.76);
+    border-radius: 15px;
+    color: white; /* Example text color */
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 5%;
+  
+  }
+  .leftnavbar{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+  }
+  .element1{
+    width: 6%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: #67A9FF;
+    margin: 10px;
+    transition: 0.3s;
+  }
+  .element1:hover{
+    margin-top: 5px;
+    color:  #006eff;
+    cursor: pointer;
+    text-decoration: underline 1px #006eff;
+  }
+  .element2{
+    width: 93.9%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 10px;
+    color: #67A9FF;
+    transition: 0.3s;
+  }
+  .ex{
+    transition: 0.3s;
+  }
+  .ex:hover{
+    margin-top: -10px;
+    color:  #006eff;
+    cursor: pointer;
+    text-decoration: underline 1px #006eff;
+  }
+  .block{
+    width: 0.1%;
+    height: 50%;
+    background-color: #8D8D8D;
+  }
+  .rightnavbar{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:flex-end;
+  }
+  .element3{
+    width: 10%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content:flex-end;
+    color: #ED6161;
+    margin: 10px;
+    transition: 0.3s;
+  }
+  .element3:hover{
+    margin-top: 5px;
+    color:  #ff0000;
+    cursor: pointer;
+    text-decoration: underline 1px rgb(255, 0, 0);
+  }
+
+
+
+
+  .leftnavbar2{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 10px;
+  }
+  .rightnavbar2{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:flex-end;
+  }

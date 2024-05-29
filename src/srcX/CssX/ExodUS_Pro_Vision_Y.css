@@ -1,0 +1,274 @@
+.exodus{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    flex-direction: column;
+    gap: 15px;
+    padding: 5px;
+}
+.ProDo{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(159, 198, 255, 0.411);
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 5px;
+}
+.ExodUSpRO{
+    width: 100%;
+    height: 5%;
+    background-color: rgba(0, 102, 255, 0.575);
+    border: solid 1px rgb(255, 255, 255);
+    border-radius: 18px;
+    color: rgb(255, 255, 255);
+    font-family:Cenios ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ExodUSProDisplay{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 95%;
+    gap: 100px;
+}
+.ExodUSProDisplayi{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 95%;
+    gap: 10px;
+}
+.Gerer{
+    width: 20%;
+    height: 50%;
+    background-color: rgba(255, 255, 255, 0.678);
+    border-radius: 20px;
+    border: solid 1px rgb(122, 122, 122);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.ga{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 50%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.imagena{
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.ganame{
+    width: 100%;
+    height: 50%;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: X3RG;
+    font-size: 30px;
+    color: black;
+    flex-direction: column;
+    gap: 30px;
+}
+.goOn{
+    border: none;
+    background-color: rgb(36, 36, 255);
+    color: white;
+    width: 50%;
+    height: 20%;
+    transition: 0.3s;
+}
+.goOn:hover{
+    cursor: pointer;
+    width: 40%;
+    background-color: rgb(255, 136, 0);
+    color: black;
+}
+.AM{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 95%;
+    background-color: rgba(255, 255, 255, 0.589);
+    border-radius: 15px;
+    border: solid 1px black;
+    flex-direction: column;
+    padding: 20px;
+    gap: 70px;
+}
+.PM{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 95%;
+    background-color: rgba(255, 255, 255, 0.589);
+    border-radius: 15px;
+    border: solid 1px black;
+    flex-direction: column;
+    padding: 20px;
+    gap: 70px;
+}
+.the_top_title{
+    width: 50%;
+    height: 5%;
+    background-color: black;
+    color: white;
+    border-radius: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: X3RG;
+}
+.the_form{
+    width: 100%;
+    height: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 20px;
+}
+.cform{
+    width: 40%;
+    height: 5%;
+    border: solid black 1px;
+}
+.cformA{
+    width: 30%;
+    height: 5%;
+    border: none;
+    background-color: black;
+    color: white;
+    transition: 0.3s;
+}
+.cformEE{
+    width: 40%;
+    height: 5%;
+    border: solid black 1px;
+    border-radius: 5px;
+}
+.cformA:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    width: 15%;
+}
+.thhh{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+}
+.effectZ{
+    border: none;
+    background-color: rgb(57, 87, 255);
+    color: white;
+}
+.effectZR{
+    border: none;
+    background-color: rgb(255, 57, 57);
+    color: white;
+}
+.checkboxX{
+    width: 100%;
+    height:20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+.AMi{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: 95%;
+    background-color: rgba(255, 255, 255, 0.589);
+    border-radius: 15px;
+    border: solid 1px rgb(0, 0, 0);
+    flex-direction: column;
+    padding: 20px;
+    gap: 70px;
+}
+.amip{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.amipcom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 30%;
+    height: 95%;
+    border: solid 1px rgb(73, 112, 218);
+    border-radius: 15px;
+}
+.buttonSSS{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.felsa1{
+    width: 30%;
+    height: 30%;
+    border: none;
+    background-color: rgb(39, 39, 255);
+    color: white;
+}
+.felsa2{
+    width: 30%;
+    height: 30%;
+    border: none;
+    background-color: rgb(46, 255, 39);
+    color: white;
+}
+.felsa3{
+    width: 30%;
+    height: 30%;
+    border: none;
+    background-color: rgb(255, 0, 0);
+    color: white;
+}
+.PUttt{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+.aDa{
+    width: 80%;
+    height: 25%;
+    border: black solid 1px;
+    outline: none;
+}

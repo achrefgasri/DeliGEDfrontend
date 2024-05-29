@@ -1,0 +1,113 @@
+
+body{
+    background-image: url(../AssetsX/Backgrounds/blue\ mac.jpg);
+    backdrop-filter: blur(1rem);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Updated height */
+    width: 100vw; /* Updated width */
+  }
+  .GlassLogin{
+    width: 25%;
+    height: 60%;
+    background-color:rgba(255, 255, 255, 0.589);
+    border-radius: 20px;
+    border:1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .forme{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+  }
+  .name{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    font-family: Cenios;
+    font-size: 35px;
+    color:black;
+  }
+  .idenpass {
+    display: flex;
+    align-items: center; /* Center vertically */
+    justify-content:baseline;
+    height: 30%;
+    width: 100%;
+    flex-direction: column;
+    margin: 40px;
+    gap: 40px;
+  }
+  .LogInput{
+   width: 80%;
+   height: 30%;
+   border-radius: 10px;
+   outline: hidden;
+   border: 1px solid black;
+   background-color: white;
+  }
+.LogInput:focus{
+    outline: none;
+}
+  .logbut{
+    display: flex;
+    align-items: center; /* Center vertically */
+    justify-content:baseline;
+    height: 40%;
+    width: 100%;
+    flex-direction: column;
+  }
+  .LogButton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    border-radius: 15px;
+    width: 28%;
+    height: 20%;
+    border: 0px;
+    color: white;
+    font-size: 17px;
+    font-family: boldatin ;
+    transition: 0.3s;
+  }
+  .LogButton:hover{
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border: 2px solid black;
+  }
+  .logfor{
+    display: flex;
+    align-items: center;
+    justify-content:flex-end;
+    height: 10%;
+    width: 100%;
+  }
+  .logfor{
+    font-size: 16px;
+    margin-right: 20px;
+    margin-bottom: -20px;
+    color: black;
+    transition: 0.3s;
+}
+.logfor:hover{
+    color: rgb(125, 186, 255);
+    cursor: pointer;
+}

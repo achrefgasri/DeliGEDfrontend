@@ -1,0 +1,131 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url(../Components/img/1800.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 800px; /* Adjust this value as needed */
+  }
+  
+  .glass{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.575);
+    height: 700px;
+    border-radius: 10px;
+    width: 550px; /* Adjust this value as needed */
+  }
+  
+    
+    .inputs {
+      display: flex;
+      flex-direction: column;
+      gap: 20px; /* This adds some space between your inputs and textareas */
+      width: 75%;
+    }
+    input{
+     height: 10%; 
+     border-radius: 5px;
+     border-bottom: solid 2px rgb(29, 70, 255);
+     border-top: transparent;
+     border-left: transparent;
+     border-right: transparent;
+     font-family: "verdana";
+     font-size: 12px;
+     transition: border-bottom 0.3s ;
+    }
+   input:hover {
+      cursor: default;
+   }
+    
+    textarea {
+      width: 100%; /* This makes sure your inputs and textareas take the full width of their container */
+      height: 100px;
+      border-radius: 5px;
+      border-bottom: solid 2px rgb(29, 70, 255);
+      border-top: transparent;
+      border-left: transparent;
+      border-right: transparent;
+      outline: transparent;
+      transition: border-bottom 0.3s ;
+    }
+    textarea:hover {
+      cursor: default;
+   }
+   .list{
+    height: 10%; 
+     border-radius: 5px;
+     border-bottom: transparent;
+     border-top: transparent;
+     border-left: transparent;
+     border-right: transparent;
+     font-family: "verdana";
+     font-size: 12px;
+     transition: border-bottom 0.3s ;
+   }
+   .option{
+    font-size:15px;
+   }
+   .placeholderX{
+    color: rgb(51, 51, 51);
+    font-family: "verdana";
+    font-size: 12px;
+   }
+   .text{
+      font-family: Gravelo;
+      font-size: 50px;
+      color: rgb(255, 255, 255);
+      text-shadow: 2px 2px black;
+   }
+   .text2{
+    font-family: Gravelo;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px black;
+ }
+   .suivantB{
+    border: solid 2px white;
+    background-image: linear-gradient(rgb(0, 38, 255), rgb(96, 152, 255));
+    color: white;
+    width: 20%;
+    margin-left: 330px;
+   }
+   .suivantB:focus{
+    border: solid 2px white;
+   }
+   .suivantB:hover{
+    cursor: pointer;
+    background-image: linear-gradient(rgb(82, 108, 255), rgb(148, 181, 241)); 
+   }
+   .glassXX{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.575);
+    height: 800px;
+    border-radius: 10px;
+    width: 550px; /* Adjust this value as needed */
+   }
+   .littletitle{
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    font-size: 20px;
+    font-family: 'verdana';
+    background-color: rgb(0, 0, 0);
+    padding: 13px;
+   }
+    
